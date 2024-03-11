@@ -38,19 +38,31 @@ function App() {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end w-100">
-              <Nav.Link href="/" className="text-uppercase">
+              <Nav.Link href="/" className="text-uppercase text-light fw-bold">
                 Acasa
               </Nav.Link>
-              <Nav.Link href="/services" className="text-uppercase">
+              <Nav.Link
+                href="/services"
+                className="text-uppercase text-light fw-bold"
+              >
                 Produse
               </Nav.Link>
-              <Nav.Link href="/about" className="text-uppercase">
+              <Nav.Link
+                href="/about"
+                className="text-uppercase text-light fw-bold"
+              >
                 Despre noi
               </Nav.Link>
-              <Nav.Link href="/blog" className="text-uppercase">
+              <Nav.Link
+                href="/blog"
+                className="text-uppercase text-light fw-bold"
+              >
                 Blog
               </Nav.Link>
-              <Nav.Link href="/contact" className="text-uppercase">
+              <Nav.Link
+                href="/contact"
+                className="text-uppercase text-light fw-bold"
+              >
                 Contact
               </Nav.Link>
             </Nav>

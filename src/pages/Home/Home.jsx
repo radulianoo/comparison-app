@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import ChooseSection from "../../components/ChooseSection/ChooseSection";
+import StartContributingImg from "../../utils/images/start-contributing-photo.jpg";
 
 function Home() {
   return (
@@ -26,7 +28,7 @@ function Home() {
             <Link to="/contact">
               <button
                 type="button"
-                className="btn btn-outline-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
+                className="btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
               >
                 Sa discutam
               </button>
@@ -34,6 +36,40 @@ function Home() {
           </div>
         </div>
       </header>
+      <div className="py-5">
+        <ChooseSection />
+      </div>
+
+      <div className="py-5bg-light">
+        <div className="container">
+          <div className="row d-flex align-items-center justify-content-around">
+            <div className="col-lg-5">
+              <h2 className="text-capitalize">{new Date().getFullYear()}</h2>
+              <p>
+                Este anul in care democratizam informatia. De anul acesta
+                incepem sa construim o comunitate in care informatia este la
+                indemana si fiecare dintre noi poate sa isi expuna experienta cu
+                produsele bancare.
+              </p>
+              <Link to="/services">
+                <button
+                  type="button"
+                  className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
+                >
+                  Contribuie si tu
+                </button>
+              </Link>
+            </div>
+            <div className="col-lg-5 mt-5 mt-lg-0">
+              <img
+                src={StartContributingImg}
+                className="img-fluid rounded-3"
+                alt="community-photo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

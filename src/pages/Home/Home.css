@@ -3,4 +3,9 @@
     rgba(5, 10, 35, 0.75),
     rgba(5, 10, 35, 0.75)
   );
+
+  header {
+    background-size: cover;
+    background-position: center;
+  }
 }
