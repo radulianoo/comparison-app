@@ -15,7 +15,7 @@ function App() {
       <Navbar expand="lg" className="position-absolute w-100">
         <Container>
           <Navbar.Brand>
-            <Link to="/" className="navbar-brand d-flex align-item-center">
+            <Link to="/" className="navbar-brand d-flex align-items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
