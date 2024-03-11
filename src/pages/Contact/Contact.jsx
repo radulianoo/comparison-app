@@ -42,7 +42,7 @@ function Contact() {
 
           <Row className="mb-3">
             <Col sm={12} md={6} className="mb-3 mb-md-0">
-              <Form.Label>Location</Form.Label>
+              <Form.Label>Locatia ta</Form.Label>
               <Form.Select defaultValue="location">
                 <option>Bucuresti</option>
                 <option>Timisoara</option>

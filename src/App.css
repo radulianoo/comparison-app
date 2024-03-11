@@ -28,6 +28,10 @@ header h1 {
 .navbar .navbar-nav .nav-link:hover {
   color: var(--theme-color);
 }
+.navbar .item-link {
+  color: #fff;
+  font-weight: 600;
+}
 
 nav .navbar-toggler:focus {
   box-shadow: none;

@@ -4,10 +4,3 @@
     rgba(5, 10, 35, 0.85)
   );
 }
-
-.community-photo {
-  width: 800px;
-  height: 800px;
-  border-radius: 5px;
-  background-position: center;
-}
