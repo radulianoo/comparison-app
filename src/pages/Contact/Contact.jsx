@@ -4,4 +4,4 @@ function Contact() {
   return <div>Contact</div>;
 }
 
-export default Home;
+export default Contact;
