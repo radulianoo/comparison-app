@@ -50,8 +50,8 @@ function ChooseSection() {
                 </svg>
               </div>
               <Card.Body>
-                <Card.Title className="text-center text-capitalize mb-3">
-                  Drumuri la banca
+                <Card.Title className="text-center mb-3">
+                  Drumul la banca
                 </Card.Title>
                 <Card.Text className="text-center">
                   Bun, acum ai studiat cele 40 de oferte. Este timpul sa iti
@@ -76,7 +76,7 @@ function ChooseSection() {
               </div>
               <Card.Body>
                 <Card.Title className="text-center text-capitalize mb-3">
-                  Incredere
+                  Increderea
                 </Card.Title>
                 <Card.Text className="text-center">
                   Fiecare banca isi promoveaza serviciul oferit, dar oare este
