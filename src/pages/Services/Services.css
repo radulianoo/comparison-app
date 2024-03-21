@@ -5,6 +5,10 @@
   );
 }
 
+.services-page .card {
+  width: 300px;
+}
+
 .services-page .card:hover {
   cursor: pointer;
 }

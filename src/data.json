@@ -1,0 +1,92 @@
+{
+  "creditCards": [
+    {
+      "bankName": "Bank A",
+      "creditCardName": "Platinum Card",
+      "interest": "1.5%",
+      "gracePeriod": 30,
+      "numberOfInstallments": 12,
+      "canBeUsedWorldwide": true,
+      "canBeUsedForOnlinePayments": true,
+      "creditLimit": "$5000",
+      "cardImageUrl": "https://example.com/bankA/platinum-card.jpg"
+    },
+    {
+      "bankName": "Bank B",
+      "creditCardName": "Gold Card",
+      "interest": "1.2%",
+      "gracePeriod": 45,
+      "numberOfInstallments": 24,
+      "canBeUsedWorldwide": true,
+      "canBeUsedForOnlinePayments": true,
+      "creditLimit": "$10000",
+      "cardImageUrl": "https://example.com/bankB/gold-card.jpg"
+    },
+    {
+      "bankName": "Bank C",
+      "creditCardName": "Silver Card",
+      "interest": "2.0%",
+      "gracePeriod": 25,
+      "numberOfInstallments": 6,
+      "canBeUsedWorldwide": false,
+      "canBeUsedForOnlinePayments": true,
+      "creditLimit": "$3000",
+      "cardImageUrl": "https://example.com/bankC/silver-card.jpg"
+    },
+    {
+      "bankName": "Bank D",
+      "creditCardName": "Traveler Card",
+      "interest": "1.8%",
+      "gracePeriod": 50,
+      "numberOfInstallments": 12,
+      "canBeUsedWorldwide": true,
+      "canBeUsedForOnlinePayments": true,
+      "creditLimit": "$7000",
+      "cardImageUrl": "https://example.com/bankD/traveler-card.jpg"
+    },
+    {
+      "bankName": "Bank E",
+      "creditCardName": "Rewards Card",
+      "interest": "2.2%",
+      "gracePeriod": 20,
+      "numberOfInstallments": 10,
+      "canBeUsedWorldwide": true,
+      "canBeUsedForOnlinePayments": false,
+      "creditLimit": "$4000",
+      "cardImageUrl": "https://example.com/bankE/rewards-card.jpg"
+    },
+    {
+      "bankName": "Bank F",
+      "creditCardName": "Business Card",
+      "interest": "1.9%",
+      "gracePeriod": 35,
+      "numberOfInstallments": 18,
+      "canBeUsedWorldwide": true,
+      "canBeUsedForOnlinePayments": true,
+      "creditLimit": "$15000",
+      "cardImageUrl": "https://example.com/bankF/business-card.jpg"
+    },
+    {
+      "bankName": "Bank G",
+      "creditCardName": "Student Card",
+      "interest": "0%",
+      "gracePeriod": 60,
+      "numberOfInstallments": 0,
+      "canBeUsedWorldwide": false,
+      "canBeUsedForOnlinePayments": true,
+      "creditLimit": "$1000",
+      "cardImageUrl": "https://example.com/bankG/student-card.jpg"
+    },
+    {
+      "bankName": "Bank H",
+      "creditCardName": "Cashback Card",
+      "interest": "1.6%",
+      "gracePeriod": 40,
+      "numberOfInstallments": 24,
+      "canBeUsedWorldwide": true,
+      "canBeUsedForOnlinePayments": true,
+      "creditLimit": "$8000",
+      "cardImageUrl": "https://example.com/bankH/cashback-card.jpg"
+    }
+  ]
+}

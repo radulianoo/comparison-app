@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css";
 import { Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import CardIng from "../../utils/images/card-1.webp";
 import CardCeb from "../../utils/images/card-2.png";
 import CardBcr from "../../utils/images/card-4.png";
@@ -85,12 +86,13 @@ function Services() {
         <div className="row g-4">
           {cards.map((card) => (
             <div key={card.id} className="col-lg-6">
-              <Card className="text-dark shadow scale-hover-effect d-flex align-items-center">
-                <Card.Img src={card.img} />
-                <Card.Title className="fw-bold">{card.title}</Card.Title>
-                <Card.Text className="text-center">
-                  {card.description}
-                </Card.Text>
+              <Card style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={card.img} />
+                <Card.Body>
+                  <Card.Title>{card.title}</Card.Title>
+                  <Card.Text>{card.description}</Card.Text>
+                  <Button variant="primary">Afla mai multe</Button>
+                </Card.Body>
               </Card>
             </div>
           ))}
